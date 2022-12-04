@@ -11,8 +11,7 @@ const getPlacesData = async (type, sw, ne) => {
 
       },
       headers: {
-        // 'X-RapidAPI-Key': '4c1671a46fmsh8d53cd119b780dbp19d6e6jsnb12ed9d2ac40', original key
-        'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_KEY, //backup key
+        'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_KEY,
         'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
       }
     };
